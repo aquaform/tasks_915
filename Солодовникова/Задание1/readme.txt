@@ -1,1 +1,0 @@
-https://www.figma.com/file/fW4lOoDpvJIOfWDfflMrWg/Templates-%239.-More-on-Figma.info-(Copy)?node-id=0%3A1
