@@ -1,1 +1,0 @@
-https://www.figma.com/file/8NlS4GVsFTizULz2n4E6Ue/Covid-19-Landing-Page-For-Figma?node-id=0%3A1
