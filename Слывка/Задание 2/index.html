@@ -6,20 +6,21 @@
     <title>Traffico</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container"> 
 
         <div class="header">
-            <div class="contact_menu"></div>
-            <a class="logo">Traffico</a>
-            <a class="about">ABOUT</a>
-            <a class="how to">HOW TO</a>
-            <a class="faqs">FAQS</a>
-            <a class="btn">CONTACT US</a>
+            <div class="contact_menu">
+                <a class="logo">Traffico</a>
+                <a class="about">ABOUT</a>
+                <a class="how to">HOW TO</a>
+                <a class="faqs">FAQS</a>
+                <a class="btn" >CONTACT US</a>
+            </div>
         </div>
 
         <div class="header_content">
             <h1>Your awesome <br> traffic permit <br> consultant.</h1>
-            <a class="btn">GET STARTED</a>
+            <a class="btn" >GET STARTED</a>
         </div>
 
         <div class="main">
@@ -27,7 +28,7 @@
                 <span class="heading">ABOUT US</span>
                 <p>The occupational traffic permit is one of the most important things in the company when carrying out freight transport. In fact, it is a prerequisite for doing business traffic at all.</p>
                     <div class="about_us_question">
-                    <p>How do you do when you need to obtain a commercial traffic permit for freight transport to your business?</p>
+                        <p>How do you do when you need to obtain a commercial traffic permit for freight transport to your business?</p>
                     </div>
             </div>
 
@@ -39,18 +40,78 @@
             <div class="faq">
                 <span class="heading">FAQ</span>
                 <h2>Questions and Answers <br> on Professional Traffic <br> Permits:</h2>
-
+                    <div class="questions">
+                        <button class="btn_guestion" onclick="myFunction()"> What is a professional traffic permit? </button>
+                        <div id="answer">Traffic permits are a requirement for conducting professional traffic.</div> <!--ответ на вопрос-->
+                        <script>
+                            function myFunction() {
+                                var x = document.getElementById("answer");
+                                if (x.style.display === "none") {
+                                    x.style.display = "block";
+                                } else {
+                                    x.style.display = "none";
+                                }
+                            }
+                            </script>
+                        <button class="btn_guestion" onclick="myFunction()"> When is a professional traffic permit needed? </button>
+                        <button class="btn_guestion" onclick="myFunction()"> How to check the traffic condition? </button>
+                        <button class="btn_guestion" onclick="myFunction()"> Where to look for a traffic permit? </button>
+                        <button class="btn_guestion" onclick="myFunction()"> Are there differences between a traffic permit and a professional traffic permit? </button>
+                        <button class="btn_guestion" onclick="myFunction()"> What are the requirements for a professional traffic permit? </button>
+                        <button class="btn_guestion" onclick="myFunction()"> How much does a commercial traffic permit cost for goods? </button>
+                        <button class="btn_guestion" onclick="myFunction()"> How to plug in for the traffic permit test? </button>
+                        <button class="btn_guestion" onclick="myFunction()"> Are there professional traffic permit training courses at a distance? </button>
+                        <button class="btn_guestion" onclick="myFunction()"> How is the sample for a professional traffic permit booked? </button>
+                        <a class="load_more">LOAD MORE</a>
+                    </div>
             </div>
+            <div class="about_us_feedback"> <!--отзывы--> 
+                <span class="heading">ABOUT US</span>
+                <h2>Out Awesome Clients</h2>
+                <button class="navigation_buttons"></button> <!--кнопки промотки отзывов-->
+                    <div class="feedback_1"> <!--первый отзыв-->
+                        <p>Yes, you will need to have the land owner <br> sign the permit application as the Permittee, <br> and you sign the permit as the Applicant or <br> Agent for the Permittee.</p>
+                        <img src="#" alt="avatar" style="width:30px">
+                        <spanc class="user.name">Isak Pettersson</span>
+                    </div>
+                    <div class="feedback_2"> <!--второй отзыв-->
+                        <p>From most barricade or traffic control <br> companies located in the phone book. They <br> employ certified Traffic Control Supervisors <br> (TCS) who can generate and certify the traffic control plan.</p>
+                        <img src="#" alt="avatar" style="width:30px">
+                        <spanc class="user.name">Simon Sandberg</span>
+                    </div>
+                    <div class="feedback_3"> <!--третий отзыв-->
+                        <p>An A-Line, or access restriction deed is a <br> property right that has been obtained by <br> CDOT for the sole purpose of prohibiting <br> direct</p>
+                        <img src="#" alt="avatar" style="width:30px">
+                        <spanc class="user.name">Name Surname</span>
+                    </div>
+            </div> 
+
             
         </div>
         <div class="footer">
             <form class="start_order">
-                <input type="text" name="" id="">
+                <label for="name"><b>Name</b></label>
+                <input type="text" placeholder="Your name" name="name">
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Your email address" name="email">
                 <a class="btn"><br> GET STARTED</a>
             </form>
             <div class="footer_comment">
                 <p>We provide traffic management consultants so you get started quickly, contact us for a quote today!</p>
             </div>
+            <div class="footer_contact_menu">
+                <a class="footer_logo">Traffico</a>
+                <a class="about">ABOUT</a>
+                <a class="how to">HOW TO</a>
+                <a class="faqs">FAQS</a>
+            </div>
+                <p>Copyright @ 2019</p>
+                    <div class="social_icons">
+                        <a class="facebook">facebook</a>
+                        <a class="twitter">twitter</a>
+                        <a class="intagram">instagram</a>
+                    </div>
 
         </div>
     </div>
