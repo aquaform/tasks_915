@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/main.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Traffico</title>
+    <title>Trafico</title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
     <div class="container"> 
 
         <div class="header">
             <div class="contact_menu">
-                <a class="logo">Traffico</a>
+                <a class="logo">TRAFICO.</a>
                 <a class="about">ABOUT</a>
                 <a class="how to">HOW TO</a>
                 <a class="faqs">FAQS</a>
-                <a class="btn" >CONTACT US</a>
+                <a class="btn" href="#" >CONTACT US</a>
             </div>
         </div>
 
         <div class="header_content">
             <h1>Your awesome <br> traffic permit <br> consultant.</h1>
-            <a class="btn" >GET STARTED</a>
+            <a class="btn_start" >GET STARTED</a>
         </div>
 
         <div class="main">
@@ -43,15 +49,15 @@
                     <div class="questions">
                         <button class="btn_guestion" onclick="myFunction()"> What is a professional traffic permit? </button>
                         <div id="answer">Traffic permits are a requirement for conducting professional traffic.</div> <!--ответ на вопрос-->
-                        <script>
+                            <script>
                             function myFunction() {
                                 var x = document.getElementById("answer");
-                                if (x.style.display === "none") {
-                                    x.style.display = "block";
-                                } else {
-                                    x.style.display = "none";
+                                    if (x.style.display === "none") {
+                                        x.style.display = "block";
+                                    } else {
+                                        x.style.display = "none";
+                                    }
                                 }
-                            }
                             </script>
                         <button class="btn_guestion" onclick="myFunction()"> When is a professional traffic permit needed? </button>
                         <button class="btn_guestion" onclick="myFunction()"> How to check the traffic condition? </button>
@@ -90,18 +96,18 @@
         </div>
         <div class="footer">
             <form class="start_order">
-                <label for="name"><b>Name</b></label>
+                <label for="name"><b>Name<br></b></label>
                 <input type="text" placeholder="Your name" name="name">
 
-                <label for="email"><b>Email</b></label>
+                <label for="email"><b><br>Email<br></b></label>
                 <input type="text" placeholder="Your email address" name="email">
-                <a class="btn"><br> GET STARTED</a>
+                <a class="btn_start"><br> GET STARTED</a>
             </form>
             <div class="footer_comment">
                 <p>We provide traffic management consultants so you get started quickly, contact us for a quote today!</p>
             </div>
             <div class="footer_contact_menu">
-                <a class="footer_logo">Traffico</a>
+                <a class="footer_logo">Trafico</a>
                 <a class="about">ABOUT</a>
                 <a class="how to">HOW TO</a>
                 <a class="faqs">FAQS</a>
