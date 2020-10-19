@@ -1,0 +1,158 @@
+.header-background {
+    background: url("header-background.jpg");
+    background-size: 100% 100%;
+}
+.logo {
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 100px;
+    font-weight: 170;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+.company {
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 110px;
+    margin-left: 15px;
+}
+
+.menu-text {
+    color: white;
+    font-family: Arial;
+    text-align: right;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.menu-button {
+    float: right;
+    border: 0px solid white;
+    background: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 70px;
+}
+
+.menu-button:hover {
+    border-bottom: 2px solid white;
+}
+
+.company2 {
+    text-align: center;
+    font-family: Arial;
+    color:white;
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.about-us {
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 40px;
+    color:white;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.projects-text {
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.align-projects-button {
+    text-align: center;
+}
+
+.projects-button {
+    text-align: center;
+    background-color: blue;
+    border-radius: 30px;
+    margin-top: 25px;
+    height: 35px;
+    width: 140px;
+    border: none;
+    margin-bottom: 240px;
+}
+
+.projects-button:hover {
+    opacity: 0.8;
+}
+
+.footer-main {
+    font-family: Arial;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.footer-ul {
+    font-family: Arial;
+    font-size: 13px;
+    color: grey;
+    text-align: left;
+}
+
+.number {
+    padding-left: 3px;
+    padding-right: 5px;
+}
+
+.footer-button {
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: transparent;
+    border: none;
+}
+
+.footer-button:hover {
+    color: black;
+    font-weight: bold;
+}
+
+#contacts-container {
+    position: absolute;
+    top: 700px;
+    left: 600px;
+}
+ 
+#socseti-container {
+    position: absolute;
+    top: 700px;
+    left: 800px;
+}
+
+#line-container {
+    position: absolute;
+    top: 880px;
+    left: 300px;
+    right: 300px;
+    font-size: 10px;
+    color: gray;
+    text-align: center;
+}
+
+#rights {
+    position: absolute;
+    top: 900px;
+    font-family: Arial;
+    font-size: 13px;
+    color: grey;
+    left: 650px;
+    right: 650px;
+}
+
+
+
+
