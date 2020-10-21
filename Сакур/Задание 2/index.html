@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        button {
+            color:orange
+        }
+    </style>
     <title>Explore and Travel</title>
 </head>
-<body>
+<body style="background-color:rgb(255, 255, 255)">
     <div class="container">
 
         <div class="header">
@@ -14,7 +19,7 @@
             </div>
             <div class="menu">
                 <p><a href="ссылка"></a>Home</p>
-                <p><a href="ссылка"></a>Destinations</p>
+                <p><a href="ссылка"></a> </a>Destinations</p>
                 <p><a href="ссылка"></a>About</p>
                 <p><a href="ссылка"></a>Partner</p>
                 <form>
@@ -25,7 +30,7 @@
                     </p>
                 </form>
                 <form>
-                    <p style="text-align: ;">
+                    <p style="text-align">
                         <button class="Register">
                             Register
                         </button>
@@ -39,6 +44,29 @@
             <h3 class="Header tree">
                 Holiday finder
             </h3>
+            <form class="form"> 
+   
+                <p class="Location"> 
+                    <input type="text" name="Location" id="Location" /> 
+                    <label for="Location">Name</label> 
+                </p> 
+               
+                <p class="Activity"> 
+                    <input type="text" name="Activity" id="Activity" /> 
+                    <label for="Activity">Activity</label> 
+                </p> 
+               
+                <p class="Grade"> 
+                    <input type="text" name="Grade" id="Grade" /> 
+                    <label for="Grade">Grade</label> 
+                </p>
+
+                <p class="Date"> 
+                    <input type="text" name="Date" id="Date" /> 
+                    <label for="Date">Date</label> 
+                </p> 
+
+            </form>
             <form>
                 <p style="text-align">
                     <button class="Explore">
@@ -92,9 +120,25 @@
         <h1 class="Тест">
             Testimonials
         </h1>
-        <div class="Картинки2">
-            <img src="img/stars.jpg">
-        </div>
+            <div class="rating-area">
+                <input type="radio" id="star-5" name="rating" value="5">
+                <label for="star-5" title="Оценка «5»"></label>	
+                <input type="radio" id="star-4" name="rating" value="4">
+                <label for="star-4" title="Оценка «4»"></label>    
+                <input type="radio" id="star-3" name="rating" value="3">
+                <label for="star-3" title="Оценка «3»"></label>  
+                <input type="radio" id="star-2" name="rating" value="2">
+                <label for="star-2" title="Оценка «2»"></label>    
+                <input type="radio" id="star-1" name="rating" value="1">
+                <label for="star-1" title="Оценка «1»"></label>
+            </div>
+            <div class="rating-result">
+                <span class="active"></span>	
+                <span class="active"></span>    
+                <span class="active"></span>  
+                <span></span>    
+                <span></span>
+            </div>
         <p><a href="Текст3"></a>“Quisque in lacus a urna fermentum<br>
                                  euismod. Integer mi nibh, dapibus ac<br>
                                  scelerisque eu, facilisis quis purus. Morbi<br>
@@ -111,7 +155,7 @@
         <h1 class="Истории">
             Trending stories
         </h1>
-        <p style="text-align: ;" >
+        <p style="text-align">
             <button class="Смотреть всё">
                 View all >
             </button>
@@ -181,10 +225,9 @@
         <div class="Картинки5">
             <img src="img/logo.jpg">
         </div>
-        <span>
-            Plan and book your perfect trip with<br> 
-            expert advice, travel tips destination<br>
-            information from us.<br> 
+        <span> Plan and book your perfect trip with<br> 
+               expert advice, travel tips destination<br>
+               information from us.<br> 
         </span>
         <span>
             ©2020 Thousand Sunny. All rights reserved
