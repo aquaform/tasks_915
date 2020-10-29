@@ -396,6 +396,19 @@ textarea {
          url('../fonts/rubik-v11-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../fonts/rubik-v11-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
+  /* dm-serif-display-regular - latin */
+@font-face {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/dm-serif-display-v4-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('DM Serif Display Regular'), local('DMSerifDisplay-Regular'),
+         url('../fonts/dm-serif-display-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/dm-serif-display-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/dm-serif-display-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/dm-serif-display-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/dm-serif-display-v4-latin-regular.svg#DMSerifDisplay') format('svg'); /* Legacy iOS */
+  }
 
 html {
     box-sizing: border-box;
@@ -469,7 +482,7 @@ header {
 /* Intro styles start */
 
 .intro {
-    height: 140vh;
+    height: 150vh;
     background: url(../img/header.png) no-repeat center;
     background-size: cover;
     padding-top: 190px;
@@ -477,6 +490,9 @@ header {
 
 .intro_title {
     color: white;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
     font-size: 100px;
     line-height: 100%;
     max-width: 741px;
@@ -496,6 +512,70 @@ header {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-evenly;
+    margin-bottom: 1100px;
+}
+
+.about_us {
+    background: url(../img/about_us.png) no-repeat right top;
+    max-height: 550px;
+    padding-top: 90px;
+    margin-bottom: 276px;
+}
+
+.heading {
+    margin-top: 20px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    color: #EE4D47;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+}
+
+.heading_text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    color: #402B2B;
+    box-sizing: border-box;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 470px;
+    margin-top: 40px;
+    margin-bottom: 80px; 
+}
+
+.about_us_question {
+    position: absolute;
+    top: 30px;
+    width: 460px;
+    left: 55px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.about_us_question_bg {
+    position: relative;
+}
+
+.how_to_apply {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-end;
+    text-align: right;
+    background: url(../img/how_to_apply.png) no-repeat ;
+}
+
+.how_to_apply_text {
+    margin-top: 70px;
+    max-width: 455px;
 }
 
 /* Intro styles end */
