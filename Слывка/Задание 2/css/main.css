@@ -522,7 +522,7 @@ header {
     margin-bottom: 276px;
 }
 
-.heading {
+.heading_about_us {
     margin-top: 20px;
     font-family: Rubik;
     font-style: normal;
@@ -564,7 +564,39 @@ header {
 }
 
 .how_to_apply {
-    max-width: 1280px;
+    /* background-color: #402B2B; */
+    height: 450px;
+    background: url(../img/how_to_apply.png) no-repeat left;
+}
+
+.heading_how_to_apply{
+    margin-top: 20px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    color: #EE4D47;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+}
+
+.heading_how_to_apply, .how_to_apply_text {
+    margin-left: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 67px;
+}
+
+.how_to_apply_text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    max-width: 455px;
+}
+/* .how_to_apply {
+    max-width: 1110px;
     margin: auto;
     display: flex;
     flex-flow: wrap;
@@ -573,9 +605,9 @@ header {
     background: url(../img/how_to_apply.png) no-repeat ;
 }
 
-.how_to_apply_text {
+.how_to_apply_text, .heading {
     margin-top: 70px;
     max-width: 455px;
-}
+} */
 
 /* Intro styles end */
