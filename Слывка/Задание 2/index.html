@@ -69,18 +69,8 @@
             <div class="questions_1">
                 <button class="btn_question" onclick="myFunction()"> <img src="/Задание 2/img/svg/plus.svg"> What is a professional traffic permit? </button>
                     <div 
-                        id="answer_1">Traffic permits are a requirement for conducting professional traffic. 
+                        id="answer_1">Traffic permits are a requirement for conducting<br>professional traffic. 
                     </div> 
-                        <script>
-                            function myFunction() {
-                                var x = document.getElementById("answer_1");
-                                    if (x.style.display === "none") {
-                                        x.style.display = "block";
-                                    } else {
-                                        x.style.display = "none";
-                                    }
-                                }
-                        </script>
                 <button class="btn_question" onclick="myFunction()"> <img src="/Задание 2/img/svg/plus.svg"> How to check the traffic condition? </button> 
                 <button class="btn_question" onclick="myFunction()"> <img src="/Задание 2/img/svg/plus.svg"> What are the requirements for a professional<br>traffic permit? </button>
                 <button class="btn_question" onclick="myFunction()"> <img src="/Задание 2/img/svg/plus.svg"> Are there professional traffic permit training<br>courses at a distance? </button>
@@ -94,10 +84,13 @@
                 <button class="btn_question" onclick="myFunction()"> <img src="/Задание 2/img/svg/plus.svg"> How is the sample for a professional traffic<br>permit booked? </button>
                 <a href="#!" class="load_more"> LOAD MORE<img class="img_load_more" src="/Задание 2/img/svg/plus.svg"></a>
             </div>
-            <!-- <div class="about_us_feedback"> 
-                <span class="heading">ABOUT US</span>
-                <h2>Out Awesome Clients</h2>
-                <button class="navigation_buttons"></button>
+            <div class="about_us_feedback"> 
+                <span class="heading_about_us">ABOUT US</span>
+                <h2 class="about_us_feedback_text">Out Awesome Clients</h2>
+                <a class="navigation_buttons">
+                    <img class="navigation_buttons_left" src="./img/svg/navigation_left.svg" alt="navigation_left">
+                    <img class="navigation_buttons_right" src="./img/svg/navigation_right.svg" alt="navigation_right">
+                </a>
                     <div class="feedback_1"> 
                         <p>Yes, you will need to have the land owner <br> sign the permit application as the Permittee, <br> and you sign the permit as the Applicant or <br> Agent for the Permittee.</p>
                         <img src="#" alt="avatar" style="width:30px">
@@ -117,7 +110,7 @@
 
             
         </div>
-        <div class="footer">
+        <!-- <div class="footer">
             <form class="start_order">
                 <label for="name"><b>Name<br></b></label>
                 <input type="text" placeholder="Your name" name="name">
@@ -140,10 +133,10 @@
                         <a class="facebook">facebook</a>
                         <a class="twitter">twitter</a>
                         <a class="intagram">instagram</a
-                    </div>
+                    </div> -->
 
-        </div> -->
+        </div>
     </div> 
-    
+    <script src="./js/index.js"></script>
 </body>
 </html>
