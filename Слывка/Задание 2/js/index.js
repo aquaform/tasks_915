@@ -13,7 +13,7 @@ function myFunction() {
         if (window.pageYOffset > 200) {
             header.classList.add('header_active');
         } else {
-            header.classList.remove7('header_active'); 
+            header.classList.remove('header_active'); 
         }
     }
 }());
