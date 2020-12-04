@@ -1,0 +1,253 @@
+body {
+    width: 100%;
+    font-family: 'Oxygen';
+}
+
+.header_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 66px;
+    text-align: center;
+    margin-right: 127px;
+    margin-left: 127px;
+}
+
+.header {}
+
+.header_container {
+    height: 895px;
+    background-image: url(../img/01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.green-btn {
+    background: #01996d;
+    border: 1px solid #01996d;
+    border-radius: 4px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    padding: 1.44444vh 2.60417vw;
+    white-space: nowrap;
+    color: #000000 !important;
+}
+
+.green-btn:hover {
+    transition-duration: .2s;
+    background-color: white;
+    left: 1000px;
+}
+
+.header_content {
+    position: absolute;
+    width: 473px;
+    height: 444px;
+    left: 200px;
+    top: 246px;
+}
+
+.btn-x {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0px 0px 50px;
+    position: absolute;
+    width: 227px;
+    height: 65px;
+    left: 275px;
+    top: 580px;
+    background: #01996D;
+    border: 1px solid #01996D;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.text-color {
+    color: #01996D;
+    font-family: 'Oxygen';
+}
+
+.cname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 242px;
+    height: 86px;
+}
+
+.main {
+    height: 1390px;
+    padding: 140px 121px 17px 124px;
+}
+
+.blocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+    margin-top: 50px;
+}
+
+.block-item {
+    margin-top: 200px;
+}
+
+.font-w {}
+
+.steps3 {
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.text1 {
+    width: 50%;
+}
+
+.text2 {
+    width: 50%;
+}
+
+.main-font-bigger {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 157%;
+}
+
+.footer_content {
+    height: 923px;
+    width: 100%;
+    background-color: #245852;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 172px 175px;
+    color: white;
+}
+
+.footer_content_text {
+    padding: 41px 0px;
+}
+
+video {
+    border-radius: 25px;
+}
+
+.text-color2 {
+    position: absolute;
+    width: 546px;
+    height: 223px;
+    left: 211px;
+    top: 2904px;
+    background: rgba(196, 196, 196, 0.04);
+}
+
+.final_menu {
+    display: flex;
+}
+
+.final_alivio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 242px;
+    height: 86px;
+}
+
+.text-color_text2 {
+    color: #01996D;
+    ;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 74px;
+    font-size: 3.38542vw;
+    display: flex;
+}
+
+.journal {
+    display: flex;
+    padding: 200px;
+}
+
+.journal-text {
+    margin-left: 50px;
+}
+
+.final_menu2 {
+    color: #ffffff;
+    display: block;
+    flex-wrap: column;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 1600px;
+}
+
+.final_menu {
+    display: block;
+    flex-wrap: wrap;
+    padding-left: 280px;
+    list-style: none;
+    background-color: #245852;
+    height: 700px;
+    color: white;
+}
+
+.white {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.white2 {
+    color: black;
+}
+
+.white2:hover {
+    text-decoration: none;
+    color: #75c782;
+    transition: 0.1s;
+}
+
+.logo-final {
+    font-size: 50px;
+    color: white;
+    text-align: start;
+    font-size: 50px;
+}
+
+.logo-final:hover {
+    text-decoration: none;
+    color: #5e9667;
+    transition: 0.5s;
+}
+
+.white:hover {
+    text-decoration: none;
+    color: #68c577;
+    transition: 0.5s;
+}
+
+.text-block {
+    height: 100px;
+    width: 100px;
+}
+
+a {
+    text-decoration-skip-ink: auto;
+    text-decoration: none;
+}
+
+.final_alivio {
+    width: 50px;
+    height: 200px;
+}
