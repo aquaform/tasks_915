@@ -1,6 +1,7 @@
 .header-background {
     background: url("header-background.jpg");
     background-size: 100% 100%;
+    
 }
 .logo {
     color: white;
@@ -22,6 +23,11 @@
     margin-left: 15px;
 }
 
+.logo-button {
+    display: block;
+    text-decoration: none;
+}
+
 .menu-text {
     color: white;
     font-family: Arial;
@@ -31,18 +37,21 @@
 }
 
 .menu-button {
+    display: block;
+    text-decoration: none;
+    height: 50px;
     float: right;
     border: 0px solid white;
     background: transparent;
+    margin-top: 25px;
     margin-left: 10px;
     margin-right: 10px;
-    height: 70px;
+    
 }
 
 .menu-button:hover {
     border-bottom: 2px solid white;
 }
-
 .company2 {
     text-align: center;
     font-family: Arial;
@@ -66,16 +75,18 @@
     font-family: Arial;
     color: white;
     text-align: center;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    padding-top: 9px;
+    padding-bottom: 7px;
+    font-size: 13px;
 }
 
-.align-projects-button {
+.projects-button-container {
     text-align: center;
 }
 
 .projects-button {
     text-align: center;
+    text-decoration: none;
     background-color: blue;
     border-radius: 30px;
     margin-top: 25px;
@@ -87,6 +98,23 @@
 
 .projects-button:hover {
     opacity: 0.8;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-background {
+    background-color: #F6F6F8;
+}
+
+.footer-inf {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 .footer-main {
@@ -108,9 +136,9 @@
 
 .footer-button {
     display: block;
-    width: 300px;
-    height: 30px;
-    margin-top: 0px;
+    text-decoration: none;
+    height: 20px;
+    margin-top: 15px;
     margin-bottom: 0px;
     background: transparent;
     border: none;
@@ -118,39 +146,22 @@
 
 .footer-button:hover {
     color: black;
-    font-weight: bold;
 }
 
-#contacts-container {
-    position: absolute;
-    top: 700px;
-    left: 600px;
-}
- 
-#socseti-container {
-    position: absolute;
-    top: 700px;
-    left: 800px;
-}
-
-#line-container {
-    position: absolute;
-    top: 880px;
-    left: 300px;
-    right: 300px;
-    font-size: 10px;
-    color: gray;
-    text-align: center;
-}
-
-#rights {
-    position: absolute;
-    top: 900px;
-    font-family: Arial;
-    font-size: 13px;
+.footer-line {
+    display: flex;
+    font-size: 5px;
+    font-weight: 3px;
+    text-align: right;
     color: grey;
-    left: 650px;
-    right: 650px;
+}
+
+.rights {
+    color: grey;
+    text-align: center;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
 }
 
 
