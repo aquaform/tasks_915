@@ -409,6 +409,45 @@ textarea {
          url('../fonts/dm-serif-display-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/dm-serif-display-v4-latin-regular.svg#DMSerifDisplay') format('svg'); /* Legacy iOS */
   }
+  /* roboto-300 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/roboto-v20-latin-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-v20-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v20-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v20-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v20-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v20-latin-300.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-regular - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v20-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v20-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v20-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-v20-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v20-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v20-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v20-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v20-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
 
 html {
     box-sizing: border-box;
@@ -419,6 +458,7 @@ html {
 }
 
 body {
+    overflow-x: hidden;
     font-family: 'rubik';
     font-style: normal;
     background-color: #FEF8F5;
@@ -461,8 +501,7 @@ header {
 .header_list {
     display: flex;
     flex-wrap: wrap;
-    font-weight: 700;
-    
+    font-weight: 700;  
 }
 
 .header_item {
@@ -493,8 +532,9 @@ header {
 
 .intro {
     height: 150vh;
-    background: url(../img/header.png) no-repeat center;
+    background: url(../img/header.png) no-repeat top left;
     background-size: cover;
+    background-size: 1920px 1515px;
     padding-top: 190px;
 }
 
@@ -581,7 +621,7 @@ header {
 
 .heading_how_to_apply{
     margin-top: 20px;
-    font-family: Rubik;
+    font-family: 'Rubik';
     font-style: normal;
     font-weight: bold;
     color: #EE4D47;
@@ -737,13 +777,14 @@ header {
 }
 
 .about_us_feedback {
-    width: 290px;
-    height: 200px;
-    margin-left: 350px;
+    width: 1770px;
+    height: 454px;
+    margin-left: 400px;
     margin-top: 250px;
 }
 
 .about_us_feedback_text {
+    max-width: 290px;
     margin-top: 80px;
     font-family: 'DM Serif Display';
     font-style: normal;
@@ -753,22 +794,238 @@ header {
 }
 
 .navigation_buttons {
-    position: absolute;
-    top: 4926px;
-    right: 380px;
+    position: relative;
+    left: 1035px;
+    bottom: 250px;
     width: 90px;
     height: 14px;
     display: flex;
     justify-content: space-between;
 }
 
+.feedbacks {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .feedback_1, .feedback_2, .feedback_3 {
+    position: relative;
+    bottom: 180px;
     width: 420px;
     height: 360px;
     background: #FFFFFF;
     box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
     border-radius: 10px;
-    margin-left: 500px;
+    margin-right: 10px;
+}
+
+.feedback_text_1 {
+    width: 350px;
+    height: 140px;
+    padding-left: 48px;
+    padding-top: 60px;
+    color: #402B2B;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.feedback_text_2 {
+    width: 370px;
+    height: 140px;
+    padding-left: 48px;
+    padding-top: 60px;
+    color: #402B2B;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.feedback_text_3 {
+    width: 350px;
+    height: 140px;
+    padding-left: 48px;
+    padding-top: 60px;
+    color: #402B2B;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.user_name {
+    position: relative;
+    top: 120px;
+    left: 48px;
+    width: 193px;
+    color: #402B2B;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedback_3 {
+    opacity: 0.5
 }
 
 /* Intro styles end */
+
+/* Footer styles start */
+
+.footer {
+    width: 1900px;
+    height: 1030px;
+    margin-top: 200px;
+    margin-right: 400px;
+    background: url(../img/footer.png) no-repeat;
+}
+
+.footer_comment {
+    position: relative;
+    height: 160px;
+    width: 340px;
+    bottom: 100px;
+    left: 280px;
+}
+
+.footer_comment_text {
+    position: relative;
+    left: 50px;
+    bottom: 140px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.start_order {
+    position: relative;
+    left: 900px;
+    top: 100px;
+    width: 550px;
+    height: 440px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+    border-radius: 10px;
+}
+
+.get_started_form {
+    position: relative;
+    top: 54px;
+    left: 75px;
+    width: 220px;
+    height: 60px;
+    color: white;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    background-color: #EE4D47;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form_input {
+    padding-left: 40px;
+    width: 400px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid rgba(238, 77, 71, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+    transition: .3s;
+    color: #402B2B;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    }
+
+.form_group {
+    position: relative;
+    top: 100px;
+    left: 75px;
+    margin-bottom: 78px;
+}
+
+.form_label {
+    position: relative;
+    bottom: 60px;
+    right: 405px;
+}
+
+.form_input:focus {
+    background: #FFFFFF;
+    border: 2px solid #EE4D47;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.2);
+    border-radius: 5px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 40px;
+    color: #402B2B;
+}
+
+.footer_nav {
+    position: relative;
+    top: 120px;
+    left: 1040px;
+    font-weight: normal;
+}
+
+.footer_item {
+    margin-right: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.footer_logo {
+    position: relative;
+    top: 75px;
+    left: 280px;
+}
+
+.copyright {
+    position: relative;
+    top: 260px;
+    left: 290px;
+    width: 130px;
+    height: 40px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #402B2B;
+}
+
+.social_icons {
+    position: relative;
+    top: 215px;
+    left: 1250px;
+    width: 170px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Footer styles end */
