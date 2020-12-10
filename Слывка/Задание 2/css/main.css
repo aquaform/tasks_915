@@ -534,7 +534,7 @@ header {
     height: 150vh;
     background: url(../img/header.png) no-repeat top left;
     background-size: cover;
-    background-size: 1920px 1515px;
+    background-size: 1920px 1450px;
     padding-top: 190px;
 }
 
@@ -562,8 +562,9 @@ header {
     flex-wrap: wrap;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-bottom: 1100px;
+    padding-left: 10px;
 }
 
 .about_us {
@@ -937,7 +938,8 @@ header {
     flex-wrap: wrap;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding-left: 10px;
 }
 
 .form_input {
