@@ -1,0 +1,642 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap");
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Montserrat
+}
+
+.navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 60px 0 60px 0;
+    width: 100%
+}
+
+.navbar .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.navbar .navbar-nav .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    list-style: none
+}
+
+.navbar .navbar-nav .nav li {
+    margin: 0 30px 0 30px;
+    padding: 5px
+}
+
+.navbar .navbar-nav .nav li a {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: .3s all;
+    transition: .3s all
+}
+
+.navbar .navbar-nav .nav li:hover a {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #D1A954
+}
+
+.navbar .navbar-nav .nav .active {
+    padding: 7px;
+    border: 1px solid rgba(209, 169, 84, 0.9);
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #D1A954
+}
+
+.cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.cards .container {
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 580px;
+    height: 650px;
+    position: relative
+}
+
+.cards .container .brown_bg {
+    background: rgba(209, 170, 84, 0.808);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 166px;
+    padding: 20px 15px
+}
+
+.cards .container .brown_bg .cards_border {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.5)
+}
+
+.cards .container .brown_bg .cards_border .cards_name {
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white
+}
+
+.cards .container .brown_bg .cards_border .cards_descr {
+    margin-top: 14px;
+    font-size: 14px;
+    line-height: 135%;
+    text-align: center;
+    color: white
+}
+
+.slider img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px
+}
+
+.title .text {
+    font-size: 36px;
+    line-height: 145%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #222222;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 120px
+}
+
+.title .img-holder {
+    overflow: hidden;
+    width: 46px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px
+}
+
+.title .img-holder img {
+    width: 120%;
+    height: 150%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto
+}
+
+.title h2 {
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 9px
+}
+
+.about_img {
+    display: block;
+    left: 50%;
+    top: -479px;
+    position: absolute;
+    -webkit-transform: translate(-50%, 38%);
+    transform: translate(-50%, 38%)
+}
+
+.about-restaurant .title {
+    margin-bottom: 300px
+}
+
+.about-restaurant .wrapper {
+    position: relative;
+    background: #e5e5e526
+}
+
+.about {
+    padding-top: 320px;
+    padding-bottom: 90px
+}
+
+.about .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start
+}
+
+.about .container .Site-description {
+    position: relative;
+    width: 350px
+}
+
+.about .container .Site-description img {
+    display: block;
+    margin: 0 auto
+}
+
+.about .container .Site-description h4 {
+    margin-top: 33px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    color: #616161
+}
+
+.about .container .Site-description .text {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: Arima Madurai;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FF0000
+}
+
+.about .container .moreinfo {
+    width: 55%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.about .container .moreinfo .inform {
+    position: relative;
+    margin: 15px;
+    width: 255px
+}
+
+.about .container .moreinfo .inform h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 135%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000
+}
+
+.about .container .moreinfo .inform h4 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    color: #616161
+}
+
+.about .container .moreinfo .inform .text {
+    position: absolute;
+    right: 0;
+    top: -19px;
+    font-family: Arima Madurai;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FF0000
+}
+
+.about .container .moreinfo .inform .title-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.about .container .moreinfo .inform .title-info h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 135%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+    width: 70%
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto
+}
+
+.gallery {
+    margin-top: 111px;
+    margin-bottom: 111px
+}
+
+.gallery .s1st {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.gallery .s1st .title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 135%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 50px
+}
+
+.gallery img {
+    margin: 15px
+}
+
+.gallery .s2s2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.additional-information {
+    padding: 120px;
+    height: 410px;
+    background-image: url(../img/ssss.png);
+    background-color: #cccccc; 
+}
+
+.additional-information .title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 145%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFF
+}
+
+.additional-information .button {
+    border: none;
+    width: 320px;
+    height: 64px;
+    background: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 135%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0 45px
+}
+
+.additional-information .buttons {
+    margin-top: 70px
+}
+
+.about-us {
+    padding: 90px 485px 150px 325px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.about-us .description h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 145%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000
+}
+
+.about-us .description p {
+    margin-top: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    color: #616161
+}
+
+.about-us .restaurant {
+    width: 48%
+}
+
+.about-us .restaurant h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 135%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000
+}
+
+.about-us .restaurant p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    color: #000000
+}
+
+.about-us .office {
+    width: 50%
+}
+
+.about-us .office h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 135%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000
+}
+
+.about-us .office p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    color: #000000
+}
+
+.contacts-item {
+    margin-top: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 34px
+}
+
+.contacts-item img {
+    margin-right: 30px;
+    width: 30px
+}
+
+.contacts {
+    margin-top: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start
+}
+
+.about-wrapper {
+    width: 540px
+}
+
+.form {
+    margin-left: 30px;
+    width: 540px
+}
+
+.form-control {
+    margin-top: 25px;
+    padding: 17px 0;
+    display: block;
+    border: none;
+    border-bottom: 0.5px solid #D0D0D0;
+    width: 100%
+}
+
+.form-textarea {
+    margin-top: 35px;
+    padding: 17px;
+    display: block;
+    border: none;
+    border: 0.5px solid #D0D0D0;
+    width: 100%
+}
+
+.form-button {
+    margin-top: 35px;
+    width: 182px;
+    height: 45px;
+    border: none;
+    background: #D1A954;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 135%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+
+.footer {
+    padding-top: 114px;
+    background: #F9F7F7
+}
+
+.footer .title .text {
+    margin-top: 0
+}
+
+.footer .slide {
+    margin-top: 90px;
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.footer .slide img {
+    width: 320px
+}
+
+.footer-low {
+    padding: 40px
+}
+
+.footer-copy {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    color: #000000
+}
+
+.footer-social {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    text-align: right;
+    color: #000000
+}
+
+.footer-link {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    text-align: right;
+    color: #000000
+}
+
+.footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
