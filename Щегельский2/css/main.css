@@ -204,7 +204,6 @@
     color: #FFFFFF;
     letter-spacing: 0.2px;
     
-    
 }
 .nadpis14{
     font-size: 24px;
@@ -309,7 +308,21 @@
 .footer{
     margin-left: 15px;
 }
+.container{
+    overflow: hidden;
+    height: 4500px;
+    width: 1900px;
+    padding: 0;
+    margin: 0;
+    position: relative;
 
+}
+body{
+    position: relative;
+    overflow: scroll;
+    height: 4500px;
+    margin: 0;
+}
 
 
 
