@@ -5,122 +5,170 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trafico</title>
-    <style>
-        a {
-            text-decoration: none;
-        }
-    </style>
 </head>
 <body>
     <div class="container"> 
 
-        <div class="header">
-            <div class="contact_menu">
-                <a class="logo">TRAFICO.</a>
-                <a class="about">ABOUT</a>
-                <a class="how to">HOW TO</a>
-                <a class="faqs">FAQS</a>
-                <a class="btn" href="#" >CONTACT US</a>
+        <header class="header">
+            <div class="wrapper">
+                 <div class="header_wrapper">
+                    <div class="header_logo">
+                        <a href="/" class="header_logo_link">
+                            <img src="img/svg/logo.svg" alt="Trafico">
+                        </a>
+                    </div>
+    
+                    <nav class="header_nav">
+                        <ul class="header_list">
+                            <li class="header_item">
+                                <a href="#!" class="header_link">ABOUT</a>
+                            </li>
+                            <li class="header_item">
+                                <a href="#!" class="header_link">HOW TO</a>
+                            </li>
+                            <li class="header_item">
+                                <a href="#!" class="header_link">FAQS</a>
+                            </li>
+                            <a href="#!" class="header_link_btn">CONTACT US</a> 
+                        </ul>
+                    </nav>
+                </div>
             </div>
-        </div>
-
-        <div class="header_content">
-            <h1>Your awesome <br> traffic permit <br> consultant.</h1>
-            <a class="btn_start" >GET STARTED</a>
-        </div>
+        </header>
 
         <div class="main">
-            <div class="about_us">
-                <span class="heading">ABOUT US</span>
-                <p>The occupational traffic permit is one of the most important things in the company when carrying out freight transport. In fact, it is a prerequisite for doing business traffic at all.</p>
-                    <div class="about_us_question">
-                        <p>How do you do when you need to obtain a commercial traffic permit for freight transport to your business?</p>
+            <section class="intro">
+                <div class="wrapper">
+                    <h1 class="intro_title">
+                        Your awesome traffic permit consultant.
+                    </h1>
+                    <a href="#!" class="intro_btn"> <img src="../Задание 2/img/svg/arrow.svg">GET STARTED</a>
+                        <div class="about_us">
+                            <span class="heading_about_us">ABOUT US</span>
+                                <p class="heading_text">The occupational traffic permit is one of the most important things in the company when carrying out freight transport. In fact, it is a prerequisite for doing business traffic at all.</p>
+                                    <div class="about_us_question_bg">
+                                        <img src="img/question_bg.jpg" alt="bg_question">
+                                        <p class="about_us_question">How do you do when you need to obtain a commercial traffic permit for freight transport to your business?</p>        
+                                    </div>
+                        </div>
+                    <div class="how_to_apply">
+                        <span class="heading_how_to_apply">HOW TO APPLY</span>
+                        <p class="how_to_apply_text">When applying for a traffic permit, there are certain requirements that you must meet that are included in the examination: requirements for professional knowledge, solid establishment, good reputation and financial resources. Important to remember is to confirm your application for a traffic permit by the company's company signer or CEO.</p>
                     </div>
+                </div>
+            </section>
+
+            <div class="faq">
+                <div class="faq_text">
+                    <span class="faq_heading">FAQ</span>
+                    <div class="faq_rectangle"></div>
+                    <h2 class="faq_text2">Questions and Answers <br> on Professional Traffic <br> Permits:</h2>
+                </div>
             </div>
 
-            <div class="how_to_apply">
-                <span class="heading">HOW TO APPLY</span>
-                <p>When applying for a traffic permit, there are certain requirements that you must meet that are included in the examination: requirements for professional knowledge, solid establishment, good reputation and financial resources. Important to remember is to confirm your application for a traffic permit by the company's company signer or CEO.</p>
+            <div class="questions_1">
+                <button class="btn_question" onclick="myFunction()"> <img src="../Задание 2/img/svg/plus.svg"> What is a professional traffic permit? </button>
+                    <div 
+                        id="answer_1">Traffic permits are a requirement for conducting<br>professional traffic. 
+                    </div> 
+                <button class="btn_question" onclick="myFunction()"> <img src="../Задание 2/img/svg/plus.svg"> How to check the traffic condition? </button> 
+                <button class="btn_question" onclick="myFunction()"> <img src="../Задание 2/img/svg/plus.svg"> What are the requirements for a professional<br>traffic permit? </button>
+                <button class="btn_question" onclick="myFunction()"> <img src="../Задание 2/img/svg/plus.svg"> Are there professional traffic permit training<br>courses at a distance? </button>
             </div>
-            
-            <div class="faq">
-                <span class="heading">FAQ</span>
-                <h2>Questions and Answers <br> on Professional Traffic <br> Permits:</h2>
-                    <div class="questions">
-                        <button class="btn_guestion" onclick="myFunction()"> What is a professional traffic permit? </button>
-                        <div id="answer">Traffic permits are a requirement for conducting professional traffic.</div> <!--ответ на вопрос-->
-                            <script>
-                            function myFunction() {
-                                var x = document.getElementById("answer");
-                                    if (x.style.display === "none") {
-                                        x.style.display = "block";
-                                    } else {
-                                        x.style.display = "none";
-                                    }
-                                }
-                            </script>
-                        <button class="btn_guestion" onclick="myFunction()"> When is a professional traffic permit needed? </button>
-                        <button class="btn_guestion" onclick="myFunction()"> How to check the traffic condition? </button>
-                        <button class="btn_guestion" onclick="myFunction()"> Where to look for a traffic permit? </button>
-                        <button class="btn_guestion" onclick="myFunction()"> Are there differences between a traffic permit and a professional traffic permit? </button>
-                        <button class="btn_guestion" onclick="myFunction()"> What are the requirements for a professional traffic permit? </button>
-                        <button class="btn_guestion" onclick="myFunction()"> How much does a commercial traffic permit cost for goods? </button>
-                        <button class="btn_guestion" onclick="myFunction()"> How to plug in for the traffic permit test? </button>
-                        <button class="btn_guestion" onclick="myFunction()"> Are there professional traffic permit training courses at a distance? </button>
-                        <button class="btn_guestion" onclick="myFunction()"> How is the sample for a professional traffic permit booked? </button>
-                        <a class="load_more">LOAD MORE</a>
-                    </div>
+            <div class="questions_2">
+                <button class="btn_question" onclick="myFunction()"> <img src="../Задание 2/img/svg/plus.svg"> When is a professional traffic permit needed?</button>
+                <button class="btn_question" onclick="myFunction()"> <img src="../Задание 2/img/svg/plus.svg"> Where to look for a traffic permit? </button>
+                <button class="btn_question" onclick="myFunction()"> <img src="../Задание 2/img/svg/plus.svg"> Are there differences between a traffic permit<br>and a professional traffic permit? </button>
+                <button class="btn_question" onclick="myFunction()"> <img src="../Задание 2/img/svg/plus.svg"> How much does a commercial traffic permit<br>cost for goods? </button>
+                <button class="btn_question" onclick="myFunction()"> <img src="../Задание 2/img/svg/plus.svg"> How to plug in for the traffic permit test? </button>
+                <button class="btn_question" onclick="myFunction()"> <img src="../Задание 2/img/svg/plus.svg"> How is the sample for a professional traffic<br>permit booked? </button>
+                <a href="#!" class="load_more"> LOAD MORE<img class="img_load_more" src="../Задание 2/img/svg/plus.svg"></a>
             </div>
-            <div class="about_us_feedback"> <!--отзывы--> 
-                <span class="heading">ABOUT US</span>
-                <h2>Out Awesome Clients</h2>
-                <button class="navigation_buttons"></button> <!--кнопки промотки отзывов-->
-                    <div class="feedback_1"> <!--первый отзыв-->
-                        <p>Yes, you will need to have the land owner <br> sign the permit application as the Permittee, <br> and you sign the permit as the Applicant or <br> Agent for the Permittee.</p>
-                        <img src="#" alt="avatar" style="width:30px">
-                        <spanc class="user.name">Isak Pettersson</span>
+            <div class="about_us_feedback"> 
+                 <span class="heading_about_us">ABOUT US</span>
+                <h2 class="about_us_feedback_text">Out Awesome Clients</h2>
+                <a class="navigation_buttons">
+                    <img class="navigation_buttons_left" src="./img/svg/navigation_left.svg" alt="navigation_left">
+                    <img class="navigation_buttons_right" src="./img/svg/navigation_right.svg" alt="navigation_right">
+                </a>
+
+                <div class="feedbacks">
+                    <div class="feedback_1"> 
+                        <p class="feedback_text_1">Yes, you will need to have the land owner sign the permit application as the Permittee, and you sign the permit as the Applicant or Agent for the Permittee.</p>
+                        <div class="user_name">
+                            <img src="./img/svg/avatar_1.svg" alt="avatar" style="width:60px">
+                            <span>Isak Pettersson</span> 
+                        </div>
                     </div>
-                    <div class="feedback_2"> <!--второй отзыв-->
-                        <p>From most barricade or traffic control <br> companies located in the phone book. They <br> employ certified Traffic Control Supervisors <br> (TCS) who can generate and certify the traffic control plan.</p>
-                        <img src="#" alt="avatar" style="width:30px">
-                        <spanc class="user.name">Simon Sandberg</span>
+                    <div class="feedback_2">
+                        <p class="feedback_text_2">From most barricade or traffic control companies located in the phone book. They employ certified Traffic Control Supervisors (TCS) who can generate and certify the traffic control plan.</p>
+                        <div class="user_name">
+                            <img src="./img/svg/avatar_2.svg" alt="avatar" style="width:60px">
+                            <span>Simon Sandberg</span>
+                        </div>
+                    </div> 
+                    <div class="feedback_3"> 
+                        <p class="feedback_text_3">An A-Line, or access restriction deed is a property right that has been obtained by CDOT for the sole purpose of prohibiting direct</p>
+                        <div class="user_name">
+                            <img src="./img/svg/avatar_3.svg" alt="avatar" style="width:60px">
+                        <span>Name Surname</span>
+                        </div>
+                        
                     </div>
-                    <div class="feedback_3"> <!--третий отзыв-->
-                        <p>An A-Line, or access restriction deed is a <br> property right that has been obtained by <br> CDOT for the sole purpose of prohibiting <br> direct</p>
-                        <img src="#" alt="avatar" style="width:30px">
-                        <spanc class="user.name">Name Surname</span>
-                    </div>
+                </div>
             </div> 
 
             
         </div>
         <div class="footer">
-            <form class="start_order">
-                <label for="name"><b>Name<br></b></label>
-                <input type="text" placeholder="Your name" name="name">
-
-                <label for="email"><b><br>Email<br></b></label>
-                <input type="text" placeholder="Your email address" name="email">
-                <a class="btn_start"><br> GET STARTED</a>
-            </form>
-            <div class="footer_comment">
-                <p>We provide traffic management consultants so you get started quickly, contact us for a quote today!</p>
-            </div>
-            <div class="footer_contact_menu">
-                <a class="footer_logo">Trafico</a>
-                <a class="about">ABOUT</a>
-                <a class="how to">HOW TO</a>
-                <a class="faqs">FAQS</a>
-            </div>
-                <p>Copyright @ 2019</p>
-                    <div class="social_icons">
-                        <a class="facebook">facebook</a>
-                        <a class="twitter">twitter</a>
-                        <a class="intagram">instagram</a>
+            <div class="start_order">
+                <form>
+                    <div class="form_group">
+                        <input type="text" placeholder="Your name" class="form_input">
+                        <label for="Name" class="form_label">Name</label>
                     </div>
+                    <div class="form_group">
+                        <input type="text" placeholder="Your email address" class="form_input">
+                        <label for="Email" class="form_label">Email address</label>
+                    </div>
+                    <a href="#!" class="get_started_form" ><img src="../Задание 2/img/svg/arrow.svg">GET STARTED</a>
+                </form>
+            </div>
 
+            <div class="footer_comment">
+                <img src="./img/footer_comment.png" alt="bg_question">
+                <p class="footer_comment_text">We provide traffic management consultants so you get started quickly, contact us for a quote today!</p>
+            </div>
+
+            <nav class="footer_nav">
+                <ul class="header_list">
+                    <li class="footer_item">
+                        <a href="#!" class="header_link">ABOUT</a>
+                    </li>
+                    <li class="footer_item">
+                        <a href="#!" class="header_link">HOW TO</a>
+                    </li>
+                    <li class="footer_item">
+                        <a href="#!" class="header_link">FAQS</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="footer_logo">
+                <a href="/">
+                    <img src="./img/svg/footer_logo.svg" alt="footer_logo">
+                </a>
+            </div>
+
+            <p class="copyright">Copyright @ 2019</p>
+
+            <div class="social_icons">
+                <a href="#!" class="facebook"><img src="./img/svg/facebook.svg" alt="facebook"></a>
+                <a href="#!" class="twitter"><img src="./img/svg/twitter.svg" alt="twitter"></a>
+                <a href="#!" class="intagram"><img src="./img/svg/instagram.svg" alt="instagram"></a>
+            </div> 
         </div>
-    </div>
-    
+    </div> 
+    <script src="./js/index.js"></script>
 </body>
 </html>
