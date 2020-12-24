@@ -1,0 +1,1 @@
+https://www.figma.com/file/TC5zd5lObvOXB4aXMA1pix/Aminova-915?node-id=0%3A1
