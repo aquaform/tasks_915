@@ -1,0 +1,290 @@
+.container {
+    margin: 0% auto;
+    width: 1920px;
+    background-image: url(../img/Bez_imeni-1-vosstanovleno.jpg);
+    background-repeat: no-repeat;
+    background-color:#001723;        
+}
+
+    .line {
+        margin-right: 26px;
+        margin-bottom: 8px;
+    }
+
+    .arrow_rigth {
+        margin-left: 16px;
+    }
+
+.header {
+    height: 1410px;
+}    
+
+        .header_1 {
+            display: flex;
+            height: 140px;
+        }
+        .Company_logo {
+            margin-top: 65px;
+            margin-left: 81px;
+            font-size: 38px;
+            color: #ffffff;
+        }
+        .Main_menu {
+            margin: 0% auto;
+            margin-top: 65px;
+            font-size: 22px; 
+            color: #ffffff;   
+        }
+            .Equipment{
+                padding: 35px;
+                color: #ffffff;
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .About_us{
+                padding: 35px;
+                color: #ffffff;
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .Blog{
+                padding: 35px;
+                color: #ffffff;
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        .Account_button {
+            margin-top: 65px;
+            margin-right: 84px;           
+        }
+            .Account {
+                color: #ffffff;
+                text-decoration: none; 
+                font-family: Arial, Helvetica, sans-serif; 
+                font-size: 22px;
+            }
+
+            .Account_icon {
+                margin-right: 10px;
+
+            }
+
+    .header_2 {
+        display: flex;
+        height: 1270px;
+        margin-top: 282px;
+    }
+        .Social_icons {
+            margin-top: 342px;  
+            height: 173px;
+            width: 24px;
+            margin-left: 80px;
+        }
+
+            .Social_icons_icon {
+                padding: 10px 0px 0px 30px;
+            }
+
+            .Social_icons_text {
+                margin-bottom: 40px;
+                transform: rotate(90deg);
+                font-size: 18px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #ffffff;    
+                width: max-content; 
+            }
+
+        .The_title_of_the_site {
+            margin: 0% auto;
+            height: 310px;
+            width: 950px;
+        }
+            .Subtitle {
+            letter-spacing: 7px;
+            color: #fbd784;
+            font-size: 26px;
+            }
+
+            .Title {
+                font-size: 100px;
+                color: #ffffff;
+            }
+
+            .Button_down {
+                color: #fbd784;
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 18px;
+
+            }
+
+                .img_Button_down {
+                    margin-left: 16px;
+                    color: #fbd784;
+                }
+        
+        .Guide_to_the_page {
+            color: #ffffff;
+            display: block;
+            margin-top: 263px; 
+            margin-right: 115px;
+            justify-content: flex-end;
+            height: 240px;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+            
+            .a1 {
+                color: #ffffff;
+                text-decoration: none;
+                position: absolute;
+                margin-top: 45px;
+            }
+            
+            .a2 {
+                color: #ffffff;
+                text-decoration: none;
+                position: absolute;
+                margin-top: 90px;
+            }
+            
+            .a3 {
+                color: #ffffff;
+                text-decoration: none;
+                position: absolute;
+                margin-top: 135px;
+            }
+.main {
+    margin: 0% auto;
+}
+
+    .h2 {
+        font-size: 64px;
+    }
+
+    .p {
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .read_more {
+        color: #fbd784;
+        text-decoration: none;
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .content1 {
+        height: 720px;
+        width: 1462px;
+        margin: 0% auto;
+        display: flex;
+        margin-bottom: 200px;
+    }
+        
+        .content1_text {
+            width: 896px;
+            color: #ffffff;
+            padding: 141px 114px 140px 150px;
+            background-image: url(../img/Background_number_1.png);
+            background-repeat: no-repeat;
+            background-position: 1.5% 13%;
+        }
+
+    .content2 {
+        height: 720px;
+        width: 1462px;
+        margin: 0% auto;
+        display: flex;
+        margin-bottom: 200px;
+    }
+        
+        .content2_text {
+            width: 896px;
+            color: #ffffff;
+            padding: 141px 0px 140px 264px;
+            background-image: url(../img/Background_number_2.png);
+            background-repeat: no-repeat;
+            background-position: 17% 13%;
+        }
+
+    .content3 {
+        height: 720px;
+        width: 1462px;
+        margin: 0% auto;
+        display: flex;
+        margin-bottom: 200px;
+    }
+        
+        .content3_text {
+            width: 896px;
+            color: #ffffff;
+            padding: 141px 114px 140px 150px;
+            background-image: url(../img/Background_number_3.png);
+            background-repeat: no-repeat;
+            background-position: 1.5% 13%;
+        }
+
+    .footer {
+        display: flex;
+        width: 1462px;
+        margin-left: 229px;
+    }
+
+        .Company_logo_2 {
+            font-size: 38px;
+            color: #ffffff;
+            width: max-content;
+        }
+
+        .wishes_text {
+            width: 303px;
+            height: 64px;
+            font-size: 18px;
+            margin-top: 24px;
+            color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .License {
+            position: relative;
+            top: 195px;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: max-content;
+            color: #808080;
+        }
+       
+        .Learn_more_about_the_site {
+            margin-left: 596px;
+
+        }
+
+            .More_on_The_Blog {
+                margin-bottom: 24px;
+                color: #fbd784;
+                font-size: 24px;
+                font-family: Arial, Helvetica, sans-serif;
+                width: max-content;
+                font-weight: 550;
+            }
+
+            .footer_words {
+                margin-bottom: 24px;
+                font-size: 18px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .footer_a {
+                text-decoration: none;
+                color: #ffffff;
+            }
+
+        .More_information_about_the_company {
+            margin-left: 212px;
+            color: #fbd784;
+            font-size: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: max-content;
+            font-weight: 550;
+        }
