@@ -1,0 +1,551 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "GardensC";
+    }
+    
+    @font-face {
+        font-family: "GardensC";
+        src: url('../fonts/GardensC.otf');
+        /* подключаем шрифт*/
+    }
+    
+    .catalog {
+        height: 600px;
+        background: url("../img/hyroboard-132.png") center center/cover no-repeat;
+        /* ставим картинку на задний фон*/
+    }
+    
+    .btn {
+        float: right;
+        background-color: rgb(240, 149, 29);
+        height: 49px;
+        width: 195px;
+        border-radius: 10px;
+        color: white;
+        border: none;
+        text-transform: uppercase;
+        /* задаем параметры кнопке */
+    }
+    
+    .header_logo {
+        font-size: 45px;
+        color: black;
+        text-decoration: none;
+        /* параметры кнопки */
+    }
+    
+    .play_btn {
+        display: flex;
+        padding: 8px 200px;
+        justify-content: space-between;
+        align-items: center;
+        /*размещаем текст */
+    }
+    
+    .poleznoe {
+        display: flex;
+        padding: 8px 200px;
+        justify-content: space-between;
+        align-items: center;
+        /* задаем параметры логотипу */
+    }
+    
+    .catalog .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        color: white;
+        text-align: center;
+        /* размещаем текст по середине картинки  */
+    }
+    
+    .ctg {
+        float: right;
+        background-color: rgb(255, 255, 255);
+        height: 50px;
+        width: 120px;
+        border-radius: 10px;
+        color: rgb(0, 0, 0);
+        border: none;
+        text-transform: uppercase;
+        margin-top: 40px;
+        /* задаем параметры кнопке */
+    }
+    
+    h1 {
+        font-size: 50px;
+        font-weight: 300;
+    }
+    
+    .links a {
+        color: black;
+        text-decoration: none;
+        /* убираем нижнее подчеркивание со ссылок */
+    }
+    
+    .our_advantages {
+        display: flex;
+        margin-left: 250px;
+        margin-right: 200px;
+        margin-top: 100px;
+        font-size: 30px;
+    }
+    
+    .container {
+        width: 100%;
+    }
+    
+    .slider {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 80px;
+    }
+    
+    .arrow {
+        display: flex;
+        filter: brightness(0);
+        padding: 30px;
+    }
+    
+    .advantages {
+        display: flex;
+        justify-content: center;
+        align-items: bottom;
+        padding: 19px;
+        margin-top: 150px;
+        margin-left: 40px;
+        text-align: center;
+        filter: brightness(0)
+    }
+    
+    .about_us {
+        padding: 140px;
+        font-size: 20px;
+        margin-left: 120px;
+        margin-top: 50px;
+    }
+    
+    .advantages p {
+        display: flex;
+        flex-direction: column;
+        margin-right: 164px;
+    }
+    
+    .o_nas {
+        line-height: 4;
+        font-size: 40px;
+    }
+    
+    .mailing {
+        display: flex;
+        width: 100vw;
+        height: 100px;
+        background-color: rgb(240, 149, 29);
+    }
+    
+    .mailing p {
+        color: white;
+        font-size: 20px;
+        margin-left: 240px;
+        padding: 30px;
+    }
+    
+    .name_btn {
+        display: flex;
+        padding: 30px;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 110px;
+        width: 220px;
+        height: 60px;
+        margin-top: 20px;
+        background-color: rgb(240, 149, 29);
+        border-color: white;
+        color: white;
+        border: 2px solid;
+    }
+    
+    .surname_btn {
+        display: flex;
+        padding: 30px;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 110px;
+        width: 220px;
+        height: 40px;
+        margin-top: 20px;
+        background-color: rgb(240, 149, 29);
+        border-color: white;
+        color: white;
+        border: 2px solid
+    }
+    
+    .subscribe_btn {
+        display: flex;
+        padding: 30px;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 200px;
+        width: 180px;
+        height: 40px;
+        margin-top: 20px;
+        background-color: rgb(255, 255, 255);
+        border-color: white;
+        color: rgb(0, 0, 0);
+        margin-right: 40px;
+        font-weight: 600;
+    }
+    
+    .features p {
+        display: flex;
+        margin-top: 165px;
+        margin-left: 265px;
+        font-size: 25px;
+    }
+    
+    .plus-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 265px;
+        margin-top: 50px;
+        line-height: 1.5;
+    }
+    
+    .prium {
+        display: flex;
+        justify-content: start;
+        padding: 0 265px;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    .katalog {
+        display: flex;
+        padding: 200px 265px;
+        font-size: 25px;
+        text-decoration: none;
+        background-color: rgb(240, 240, 240);
+    }
+    
+    .vse {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 55%;
+        background-color: rgb(240, 149, 29);
+        height: 35px;
+        width: 70px;
+        border-radius: 10px;
+        color: white;
+        border: none;
+        font-size: 15px;
+    }
+   .next_btn a {
+       display: inline-flex;
+       justify-content: space-around;
+       text-decoration: none;
+       padding: 3px;
+       color: black;
+       font-size: 22px;
+   }
+   .tovary {
+       display: flex;
+       justify-content:space-between;
+       padding: 120px 260px;
+       background-color:rgb(240, 240, 240);
+       
+
+   }
+   .price {
+       font-weight: bold;       
+   }
+   .sigvey {
+    margin-top: -90px;
+    height: 425px;
+    width: 300px;
+    background-color: white;   
+    box-shadow: 10px 5px 5px rgb(65, 58, 58) ;
+   }
+
+.sigvey > figcaption{
+    margin-top: 4%;
+}
+   .btn_sigvey {
+    position:relative ;
+    background-color: rgb(240, 149, 29);
+    height: 37px;
+    width: 140px;
+    padding:  10px;
+    color: aliceblue;
+    border:rgb(240, 149, 29);
+    border-radius: 0 15px 15px 0;
+    margin-right: 30px;
+    margin-top: 7%;  
+   }
+
+    
+   .giroskuter {
+    height: 425px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 10px 5px 5px rgb(65, 58, 58);
+    margin-top: -90px;
+   }
+   .giroskuter > figcaption{
+    margin-top: 10px;
+   }
+   .btn_giroskuter {
+    position:relative ;
+    background-color: rgb(240, 149, 29);
+    height: 37px;
+    width: 140px;
+    padding:  10px;
+    color: aliceblue;
+    border:rgb(240, 149, 29);
+    border-radius: 0 15px 15px 0;
+    margin-right: 30px;
+    margin-top: 7%;
+   }
+   .electrosam{
+    height: 425px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 10px 5px 5px rgb(65, 58, 58);
+    margin-top: -90px;
+   }
+   .electrosam > figcaption {
+       margin-top: 10px;
+   }
+   .btn_electrosam {
+    position:relative ;
+    background-color: rgb(240, 149, 29);
+    height: 37px;
+    width: 140px;
+    padding:  10px;
+    color: aliceblue;
+    border:rgb(240, 149, 29);
+    border-radius: 0 15px 15px 0;
+    margin-right: 30px;
+    margin-top: 7%;
+   }
+   .nashi {
+       padding: 200px ;
+       font-size: 35px;
+       margin-left: 3% ;
+   }
+   .consultant {
+       display: flex;
+       justify-content: space-around;
+       margin-left: 5%;
+       margin-right: 5%;
+   }
+   .ivan {
+       display: flex;
+       align-items: center;
+       flex-direction: column; 
+       font-weight: bolder;     
+       height: 500px;
+       width: 340px;
+       box-shadow: 0 0 10px rgba(102, 154, 189, 0.931);
+       border-radius: 160px 160px 0px 0px;
+     
+   }
+  
+ .ivan > p > img{
+     margin-top: 10px;
+ }
+   .galya {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       font-weight: bolder;
+       height: 500px;
+       width: 340px;
+       box-shadow: 0 0 10px rgba(102, 154, 189, 0.931);
+       border-radius: 160px 160px 0px 0px;
+      
+   }
+   .galya > p > img {
+    margin-top: 10px;
+
+   }
+   .sveta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    height: 500px;
+    width: 340px;
+    box-shadow: 0 0 10px rgba(102, 154, 189, 0.931);
+    border-radius: 160px 160px 0px 0px;
+   }
+   .sveta > p > img {
+    margin-top: 10px;
+   }
+   .ivan_btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 149, 29);
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    border: none;
+    margin-top: 30px;
+   }
+   .xiaomi {
+       width: 100%;
+       height: 200px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       font-size: 50px;
+       color: grey;
+       background-color: rgb(243, 241, 241);
+       margin-top: 250px;
+
+   }
+   .pinfo {
+    display: flex;
+    padding: 10%;
+    font-size: 40px;  
+    margin-left: 10%;
+   }
+   .useful_info {
+       display: flex;
+       justify-content: space-around;
+       align-content: center;
+       margin-left: 10%;
+       margin-right: 10%;
+       
+       
+   }
+   .im1 > p > img{
+       position: relative;
+       z-index: 1;
+   }
+   .im1 > figcaption {
+       position: absolute;
+       z-index: 4;
+       margin-top: -160px;
+       color: white;
+       margin-left: 1%;
+       font-size: 20px;
+   }
+   .im2 > p > img{
+    position: relative;
+    z-index: 1;
+   }
+   .im2 > figcaption {
+    position: absolute;
+    z-index: 4;
+    margin-top: -160px;
+    color: white;
+    margin-left: 1%;
+    font-size: 20px;
+}
+.im3 > p >img {
+    position: relative;
+    z-index: 1;
+}
+.im3 > figcaption {
+    position: absolute;
+    z-index: 4;
+    margin-top: -160px;
+    color: white;
+    margin-left: 1%;
+    font-size: 20px; 
+}
+.im4 > p >img {
+    position: relative;
+    z-index: 1;
+}
+.im4 > figcaption {
+    position: absolute;
+    z-index: 4;
+    margin-top: -160px;
+    color: white;
+    margin-left: 1%;
+    font-size: 20px; 
+}
+.footer {
+    display: flex;
+    color: gray;
+}
+.opisanie {
+    justify-content: flex-start;
+    padding: 12%;
+}
+.ft {
+    margin-top: 20px;
+}
+.corp {
+    margin-top: 40px;
+}
+.mgr {
+    display: flex;
+    padding: 12% 0;
+    justify-content: center;
+    color: black;
+}
+
+.links2 {
+   margin-left: -50%;
+   margin-top: 17%;
+
+}
+.links2 a {
+    display: flex;
+    text-decoration:none ;
+    color: gray;
+   
+}
+.pok {
+    display: flex;
+    padding: 12% 0;
+    justify-content: center;
+    
+}
+
+.links3 {
+   margin-left: -40%;
+   margin-top: 17%;
+
+}
+.links3 a {
+    display: flex;
+    text-decoration:none ;
+    color: grey
+   
+}
+.pokup {
+    color:black
+}
+.help {
+    display: flex;
+    padding: 12% 0;
+    justify-content: center;
+    
+}
+
+.links4 {
+   margin-left: -25%;
+   margin-top: 17%;
+
+}
+.links4 a {
+    display: flex;
+    text-decoration:none ;
+    color: grey
+   
+}
+.blc {
+    color: black;
+}
