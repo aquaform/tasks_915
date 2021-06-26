@@ -1,1 +1,158 @@
-<mxfile host="app.diagrams.net" modified="2021-06-26T13:33:03.593Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.8.1" etag="QgY7VrtF75pabDzVX2LS" type="github"><diagram id="UygBM5kKuVjlUyiJhRFE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-26T13:52:43.015Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="ZV4aw_evZuu29bnoHpof" version="14.8.1" type="github">
+  <diagram id="UygBM5kKuVjlUyiJhRFE" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-1" value="Посетитель поликлиники" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-3" value="Регистратура&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-4" value="&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;заполнение &lt;br&gt;анкетных &lt;br&gt;данных&lt;/span&gt;&lt;br&gt;" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLYWeuXhKagjAMEJx2-7-1" target="cLYWeuXhKagjAMEJx2-7-3">
+          <mxGeometry x="0.8462" y="95" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="280" as="sourcePoint" />
+            <mxPoint x="220" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-5" value="Данные о посетителях" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="97.5" y="480" width="75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-6" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLYWeuXhKagjAMEJx2-7-3" target="cLYWeuXhKagjAMEJx2-7-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="460" as="sourcePoint" />
+            <mxPoint x="260" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-7" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLYWeuXhKagjAMEJx2-7-3" target="cLYWeuXhKagjAMEJx2-7-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="400" as="sourcePoint" />
+            <mxPoint x="360" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-8" value="Осмотр у врача" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-9" value="Установление&lt;br&gt;диагноза" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLYWeuXhKagjAMEJx2-7-8" target="cLYWeuXhKagjAMEJx2-7-10">
+          <mxGeometry y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="410" as="sourcePoint" />
+            <mxPoint x="460" y="380" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-10" value="Лечение" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-11" value="Оценивается &lt;br&gt;стоимость &lt;br&gt;лечения" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLYWeuXhKagjAMEJx2-7-10" target="cLYWeuXhKagjAMEJx2-7-12">
+          <mxGeometry x="-0.1111" y="40" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="480" as="sourcePoint" />
+            <mxPoint x="550" y="450" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-12" value="Счёт за лечение" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLYWeuXhKagjAMEJx2-7-12" target="cLYWeuXhKagjAMEJx2-7-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="600" as="sourcePoint" />
+            <mxPoint x="570" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-34" value="Оплата &lt;br&gt;счёта" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cLYWeuXhKagjAMEJx2-7-17">
+          <mxGeometry x="-0.3538" y="-1" relative="1" as="geometry">
+            <mxPoint x="31" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-18" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="611" width="60" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-19" value="Нужно ещё обратится в поликлинику" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="585" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-20" value="Нет" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLYWeuXhKagjAMEJx2-7-19" target="cLYWeuXhKagjAMEJx2-7-18">
+          <mxGeometry x="-0.0667" y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="780" as="sourcePoint" />
+            <mxPoint x="690" y="730" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-21" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLYWeuXhKagjAMEJx2-7-19" target="cLYWeuXhKagjAMEJx2-7-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="600" as="sourcePoint" />
+            <mxPoint x="490" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="640" />
+              <mxPoint x="40" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-22" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cLYWeuXhKagjAMEJx2-7-21">
+          <mxGeometry x="-0.7802" y="2" relative="1" as="geometry">
+            <mxPoint x="64" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-25" value="Стоимости услуг" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="280" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-26" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cLYWeuXhKagjAMEJx2-7-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="540" as="sourcePoint" />
+            <mxPoint x="570" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="735" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-27" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cLYWeuXhKagjAMEJx2-7-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="640" as="sourcePoint" />
+            <mxPoint x="135" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-28" value="Врач специалист" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="555" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-29" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLYWeuXhKagjAMEJx2-7-28" target="cLYWeuXhKagjAMEJx2-7-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="270" as="sourcePoint" />
+            <mxPoint x="580" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-32" value="Врач терапевт" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-33" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLYWeuXhKagjAMEJx2-7-32" target="cLYWeuXhKagjAMEJx2-7-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="280" as="sourcePoint" />
+            <mxPoint x="430" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-35" value="Данные о посещениях" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-36" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLYWeuXhKagjAMEJx2-7-8" target="cLYWeuXhKagjAMEJx2-7-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="490" as="sourcePoint" />
+            <mxPoint x="420" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLYWeuXhKagjAMEJx2-7-37" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLYWeuXhKagjAMEJx2-7-12" target="cLYWeuXhKagjAMEJx2-7-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="460" as="sourcePoint" />
+            <mxPoint x="550" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="490" />
+              <mxPoint x="440" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
